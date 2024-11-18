@@ -1,0 +1,397 @@
+body {
+    background-color: rgb(151, 164, 190);
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+}
+
+.box {
+    padding: 20px;
+}
+
+.left {
+    display: grid;
+    background-color: lightgrey;
+    grid-column: span 1;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-row: span 3;
+}
+
+.profile img {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.profile p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-row: span 1;
+}
+
+.dashboard img{
+    width: 30px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.dashboard p {
+    font-size: 13px;
+    color: grey;
+}
+
+.classes {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-row: span 1;
+}
+
+.classes img {
+    width: 30px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.classes p {
+    font-size: 13px;
+    color: grey;
+}
+
+.chats {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-row: span 1;     
+}
+
+.chats img {
+    width: 30px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.chats p {
+    font-size: 13px;
+    color: grey;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-row: span 1;      
+}
+
+.settings img {
+    width: 30px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.settings p {
+    font-size: 13px;
+    color: grey;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-row: span 3;        
+}
+
+.information img {
+    width: 60px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.information p {
+    font-size: 13px;
+    color: grey; 
+}
+    
+.mid {
+    display: grid;
+    background-color: grey;
+    grid-column: span 2;
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.midDashboard {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    grid-row: span 1;
+}
+
+.midDashboard p1 {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.image p2 {
+    font-size: 15px;
+    color: rgb(181, 181, 181);
+}
+
+.image img {
+    width: 28px;
+    height: auto;
+    background-color: rgba(72, 172, 172, 0.966);
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(215, 193, 193);
+    border-radius: 15px;
+    grid-row: span 3;
+    padding: 40px;
+}
+
+.message h1{
+    font-size: 38px;
+    color: rgb(254, 162, 162);
+}
+
+.message p {
+    font-size: 16px;
+}
+
+.welcome img {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+.activity {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: span 3;
+    padding-top: 30px;
+    gap: 25px;
+}
+
+.activity1 {
+    display: flex;
+    background-color: rgb(193, 191, 191);
+    border-radius: 15px;
+    grid-column: span 1;
+    padding: 18px;
+}
+
+.activity1 p {
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+
+.activity2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(193, 191, 191);
+    border-radius: 15px;
+    grid-column: span 1;
+    padding: 18px;
+}
+
+.activity2 p {
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+
+.course {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    grid-row: span 1;
+}
+
+.course p1 {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.arrow p2 {
+    font-size: 15px;
+    color: rgb(181, 181, 181);
+}
+
+.arrow img {
+    width: 28px;
+    height: auto;
+    background-color: rgba(72, 172, 172, 0.966);
+    border-radius: 8px;
+    margin-left: 15px;
+}
+
+.moreCourse {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: span 1;
+    gap: 25px;
+}
+
+.course1 {
+    display: flex;
+    background-color: rgb(128, 234, 170);
+    border-radius: 15px;
+    grid-column: span 1;
+    padding: 18px;
+}
+
+.course1 p {
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+
+.course2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(128, 234, 170);
+    border-radius: 15px;
+    grid-column: span 1;
+    padding: 18px;
+}
+
+.course2 p {
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+
+.course3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(128, 234, 170);
+    border-radius: 15px;
+    grid-column: span 1;
+    padding: 18px;
+}
+
+.course3 p {
+    font-size: 15px;
+    color: rgb(59, 59, 59);
+}
+
+.right {
+    display: grid;
+    background-color: lightgrey;
+    grid-column: span 1;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-row: span 1;
+}
+
+.logout p {
+    font-size: 15px;
+    color: grey;
+}
+
+.logout img {
+    width: 28px;
+    height: auto;
+}
+
+.UserProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    grid-row: span 3;
+}
+
+.UserProfile img {
+    border-radius: 50%;
+    width: 80px;
+    border: 3px solid rgb(255, 255, 255);
+    border-color: black;
+    background-color: white;
+}
+
+.UserProfile p1 {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.UserProfile p2 {
+    font-size: 11px;
+    color: grey;
+    font-weight: bold;
+}
+
+.reminder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-row: span 1;
+}
+
+.reminder p {
+    font-size: 15px;
+    color: rgb(57, 55, 55);
+}
+
+.reminder img {
+    width: 28px;
+    height: auto;
+}
+
+.ReminderInfo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    grid-row: span 2;
+}
+
+.ReminderInfo li {
+    color: red;
+}
